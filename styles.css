@@ -29,3 +29,49 @@
    align-items: center;
 }
 
+
+.contain {
+    display: flex;
+    background-color: yellow;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.tain {
+    display: flex;
+    background-color: pink;
+}
+
+.c1, .c2, .c3 {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.c1 {
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.c2 {
+    color: #e5e7eb;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.mountain {
+    display: flex;
+    height: 250px;
+}
+
+.button {
+    display: flex;
+    background-color: rgb(152, 9, 152);
+    color: #e5e7eb;
+    border:none;
+    border-radius:10px;
+}
