@@ -11,7 +11,7 @@
 
 li, a {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     color: #E5E7EB;
     text-decoration: none;
 }
@@ -20,11 +20,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 25px 10%;
 }
 
 .logo {
-    height: 50px;
+    height: 30px;
     cursor: pointer;
 }
 
@@ -72,4 +72,44 @@ p {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 25px;
+    background-color: #f9faf8;
+}
+
+.contentImage {
+    height: 75px;
+    background-color: #f9faf8;
+    padding-bottom: 8px;
+}
+
+h2 {
+    padding: 20px;
+    color: #1F2937;
+    background-color: #f9faf8;
+}
+
+.column1, .column2, .column3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f9faf8;
+    padding: 5px;
+}
+
+h6 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 10px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #f9faf8;
 }
