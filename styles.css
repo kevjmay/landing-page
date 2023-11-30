@@ -113,3 +113,25 @@ h6 {
     color: #1F2937;
     background-color: #f9faf8;
 }
+
+.qouteContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.qoute, h5, .ei {
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+h4 {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    padding-top: 20px;
+
+    color: #E5E7EB;
+}
